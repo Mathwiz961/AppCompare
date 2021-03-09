@@ -6,3 +6,5 @@ You need an API key from MapMyFitness in order do download trips that can be aqu
 The program uses the APIs "close-to-location" and you need to supply a (lat, lon, buff) triple (buffer in meters) to the get_routes function in the main program.  
 
 Bikemap.py is a html parser that scrapes data from bikemap webpage.  You will need a CSV file with a list of trip IDs you want to download (find appropriate IDs on bikemap web site for your project).  The meta data is saved to a CSV file and the GPS points are stored as GPX files.  Use GPXtoPoint.py to convert the GPX files to point features in a postgreSQL database.
+
+The two csv files are the statistics we gathered and analyzed for the study.
